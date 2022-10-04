@@ -1,6 +1,10 @@
 # learning_django_rest
 Repository of django_rest studies according to the documentation
 https://www.django-rest-framework.org/tutorial/quickstart/ 
+
+# Install Doppler 
+https://docs.doppler.com/docs/install-cli
+
 # Run Server
 ```
 make server
@@ -19,3 +23,5 @@ python manage.py migrate
 ```
 python manage.py createsuperuser --email admin@example.com --username admin
 ```
+# Django StyleGuide
+https://github.com/HackSoftware/Django-Styleguide
