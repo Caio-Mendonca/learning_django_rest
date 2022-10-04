@@ -8,8 +8,8 @@ services:
     ports:
       - "5432:5432"
     environment:
-      - POSTGRES_DB=jmd_quality_dev
-      - POSTGRES_USER=sergio
+      - POSTGRES_DB=testdb
+      - POSTGRES_USER=caio
       - POSTGRES_PASSWORD=senha123
 
 volumes:
