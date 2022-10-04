@@ -8,4 +8,6 @@ psql-up: clean
 
 psql-down: clean
 	sudo docker-compose -f .docker/docker-compose.yml down -v --remove-orphans
-	
+
+server: clean
+	doppler run -- python manage.py runserver
